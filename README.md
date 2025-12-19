@@ -58,13 +58,13 @@ MySQL or MariaDB
 
 2.Configure database
 
-Create a database named bookdb
+Create a database named db
 Create a table:
-CREATE TABLE books (
+CREATE TABLE book (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  title VARCHAR(255),
+  name VARCHAR(255),
   author VARCHAR(255),
-  price DOUBLE
+  price int,
 );
 
 3. Update JDBC credentials
