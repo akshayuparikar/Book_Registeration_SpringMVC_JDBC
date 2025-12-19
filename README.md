@@ -4,24 +4,42 @@ A simple web application to register and view books using Spring MVC, JDBC, and 
 
 ## Project Structure
 Book_Registration_SpringMVC_JDBC/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   │   └── com/example/book/
+
 │   │   │       ├── Book.java              # Model class representing a book
+
 │   │   │       ├── BookController.java    # Handles HTTP requests and maps to views
+
 │   │   │       └── BookDAO.java           # Data Access Object for database operations
+
 │   │   └── resources/
+
 │   │       ├── applicationContext.xml     # Spring configuration for beans and JDBC
 │   │           
+
 │   └── webapp/
+
 │       ├── WEB-INF/
+
 │       │   ├── web.xml                    # Deployment descriptor
+
 |       |   |-- dispatcher-servlet.xml     # Spring MVC dispatcher configuration
+
 │       │   └── views/
+
 │       │       ├── register.jsp           # Form to register a new book
+
 │       │       └── viewbook.jsp           # Displays list of registered books
+
 ├── pom.xml                                # Maven build configuration
+
 ├── README.md                              # Project overview and setup instructions
 
 🚀 Setup Guide
