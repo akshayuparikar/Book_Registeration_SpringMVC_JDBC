@@ -11,8 +11,7 @@ Book_Registration_SpringMVC_JDBC/
 
 │   │   ├── java/
 
-│   │   │   └── com/example/book/
-
+│   │   │   └── com/cdac/
 │   │   │       ├── Book.java              # Model class representing a book
 
 │   │   │       ├── BookController.java    # Handles HTTP requests and maps to views
